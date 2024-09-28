@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UwU Praviri</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #ffe4e1; /* Lichtroze achtergrondkleur */
+    }
+    .kawaii-title {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #ff69b4; /* Felroze kleur voor de titel */
+    }
+    .kawaii-card {
+      background-color: #f4cfdb; /* Pastelroze achtergrondkleur voor de kaarten */
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .kawaii-border {
+      border: 4px dashed #ffb6c1; /* Kawaii-geïnspireerde roze stippellijnen rond de kaarten */
+    }
+    .button {
+      background-color: #ff69b4; /* Felroze kleur voor de knop */
+      color: white;
+      font-size: 1.5rem;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+    }
+    .button:hover {
+      transform: scale(1.05); /* Knop wordt iets groter bij hover */
+    }
+  </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-6">
+
+  <!-- Hoofdcontainer -->
+  <div class="text-center">
+    <!-- Titel -->
+    <h1 class="kawaii-title text-4xl md:text-6xl font-bold mb-6">Welkom op de UwU Praviri pagina!</h1>
+    <p class="text-pink-600 text-lg mb-12">Super schattige UwU vibes 💖</p>
+
+    <!-- Foto's Sectie -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24"> <!-- Marge toegevoegd onder de tegels -->
+      <!-- Eerste kaart -->
+      <div class="kawaii-card kawaii-border p-6 flex flex-col items-center">
+        <img src="UWU.png" alt="UWU" class="w-48 h-48 mb-4 rounded-full">
+        <h2 class="text-2xl text-pink-700 font-semibold">UWU</h2>
+        <p class="text-pink-600 mt-2">Praviri zegt graag UwU!</p>
+      </div>
+
+      <!-- Tweede kaart -->
+      <div class="kawaii-card kawaii-border p-6 flex flex-col items-center">
+        <img src="Praviri.png" alt="Praviri" class="w-48 h-48 mb-4 rounded-full">
+        <h2 class="text-2xl text-pink-700 font-semibold">Praviri</h2>
+        <p class="text-pink-600 mt-2">Een andere schattige afbeelding voor extra UwU kracht!</p>
+      </div>
+    </div>
+
+    <!-- Roze knop onder de tegels -->
+    <a href="https://www.twitch.tv/praviri" target="_blank" rel="noopener noreferrer" class="button mt-24">UwU Stream</a>
+  </div>
+
+</body>
+</html>
